@@ -1,0 +1,53 @@
+.container-fluid{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 3px;
+    background-image:url(background.webp);
+background-size: cover;
+padding: 20px;}
+
+.header{
+    background-color: rgba(245, 229, 209,0.8);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.left{
+    background-color: rgba(139, 163, 155,0.8);
+    border-radius: 15px;
+    padding: 20px;
+}
+.right{
+    background-color: rgba(243, 197, 244,0.5);
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.buttom{
+    background-color: rgba(245, 229, 209,0.8);
+    border-radius: 15px;
+    padding: 10px;
+}
+span{
+    font-weight: bold;
+    color: rgb(209, 102, 228);
+}
+.bold{
+    font-weight: bold;
+  
+}
+
+.white{
+    color: rgb(255, 255, 255); 
+}
+.black{
+    color: rgb(83, 83, 83);
+    font-size: large;
+}
+h2{
+    text-decoration: underline;
+}
+.link{
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+}
