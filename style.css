@@ -13,13 +13,33 @@ padding: 20px;}
 
 .left{
     background-color: rgba(139, 163, 155,0.8);
-    border-radius: 15px;
+    
     padding: 20px;
+    --angle: 100deg;
+ 
+    border: 8px solid;
+    border-image: linear-gradient(var(--angle), #92adb3, #cc8dec, #f6e04f) 1;
+    animation: 5s rotate linear infinite;
 }
+@keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+  @property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
 .right{
     background-color: rgba(243, 197, 244,0.5);
     border-radius: 15px;
     padding: 20px;
+    --angle: 100deg;
+
+    border: 6px solid;
+    border-image: linear-gradient(var(--angle), #91e7fa, #c471ed, #f64f59) 1;
+    animation: 5s rotate linear infinite;
 
 }
 
